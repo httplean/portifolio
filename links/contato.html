@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../styles/contato.css" rel="stylesheet"><!--Estilização da página-->
+    <link href="../styles/fontes.css" rel="stylesheet"><!--Importação das fontes-->
+    <link href="../styles/main-footer.css" rel="stylesheet"><!--Se refere ao rodapé das páginas-->
+    <script src="../script.js" defer></script><!--Importação do script-->
+    <meta name="google" content="notranslate"><!--Faz com que a página não seja traduzida-->
+    <link rel="icon" type="image/png" sizes="180x180" href="../componentes/fotoguia.png">
+    <title>Entre em contato</title>
+</head>
+<body><!--Campos de formulário-->
+    <div class="absolute">
+    <div class="absolute inset-0 justify-center">
+        <div class="bg-shape1 bg-teal opacity-50 bg-blur"></div>
+        <div class="bg-shape2 bg-primary opacity-50 bg-blur"></div>
+        <div class="bg-shape1 bg-purple opacity-50 bg-blur"></div>
+    </div>
+<h1>Fale comigo <mark>:)</mark>
+</div>  
+<form>
+    <input type="text" class="nome" id="seu-nome">
+    <label for="seu-nome"><span>Nome</span></label>
+    <input type="email" class="email" id="email">
+    <label for="email"><span>E-mail</span></label>
+    <textarea class="mensagem" id="mensagem-contato"></textarea>
+    <label for="mensagem-contato"><span>Mensagem</span></label>
+    <a href="https://wa.me/5511949295634" id="botao-form" onclick="enviarWhatsapp()" target="_blank">Enviar</a>
+</form>
+<aside class="link">
+    <button onclick="window.history.back()"> < </button> <!--Botão para voltar a página anterior-->
+    <a href="../links/sobre.html"><li>Sobre mim</li></a>
+    <a href="../links/formacoes.html"><li>Minhas formações</li></a>
+    <a href="../links/portifolio.html"><li>Meu portifólio</li></a>
+</aside>
+<footer class="main-footer-fixed"><!--Rodapé com copyright e meu github e linkedin-->
+    <p>© 2025 Evelyn Fazani. Todos os direitos reservados.</p>
+    <a href="https://github.com/httplean"><img src="../componentes/github.png" alt="Logo do github"></a>
+    <a href="https://www.linkedin.com/in/evelyn-de-oliveira-fazani-matias-527b04332/"><img src="../componentes/linkedin.png" alt="Logo do Linkedin"></a>
+</footer>
+</body>
+</html>

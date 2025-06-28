@@ -1,0 +1,27 @@
+.main-footer-fixed {
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color:  #e991e9;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    position: fixed;/* Fixa o elemento em relação à viewport */
+    left: 0;/* Alinha na margem esquerda */
+    width: 100%;/* Garante que ocupe toda a largura */
+    padding: 15px 0;
+    text-align: center;
+    margin-top: 1.5%;
+    z-index: 1000; /* Garante que o rodapé fique acima de outros elementos */
+}
+.main-footer-fixed img{
+    width: 50px;
+    padding: 5px;
+}
+.main-footer-fixed p{
+    color: white;
+    font-family: poppinsregular;
+    text-align: center;
+    font-size: 18.5px;
+    margin-left: 2%;
+}
